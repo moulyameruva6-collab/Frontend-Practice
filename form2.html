@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+      
+form {
+    height: 550px;
+    width: 500px;
+    background: linear-gradient(rgb(230, 42, 42) ,rgb(41, 41, 123),rgb(158, 105, 158));
+    padding: 20px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+.subtitle {
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+    <div>
+        <form action="">
+            <h1>Create an Account</h1>
+            <p class="subtitle">Join us and get started today</p><br>
+
+            <label>Full Name:</label> 
+            <input type="text" name="name" placeholder="Enter your full name">
+            <br><br>
+
+            <label>Email:</label> 
+            <input type="email" name="email" placeholder="Enter your email">
+            <br><br>
+
+            <label>Password:</label> 
+            <input type="password" name="password" placeholder="Enter your password">
+            <br><br>
+
+            <label>confirm Password:</label> 
+            <input type="password" name="confirm_password" placeholder=" confirm_password">
+            <br><br>
+
+            <label>Gender:</label> <br>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others
+            <br><br>
+
+            <label>Date Of Birth:</label> 
+            <input type="date" name="DOB">
+            <br><br>
+
+            <label>Country:</label>
+            <select name="Country">
+                 <option value=""> Select Country</option>
+                  <option value="">India</option> 
+                  <option value="">USA</option>
+                   <option value="">UK</option>
+            </select>
+            <br><br>
+
+            <input type="checkbox" name="terms" value="accepted">
+            I agree to the terms and conditions
+            <br><br>
+
+            <button type="submit">Register now</button>
+            <button type="reset">Reset</button>
+            <br><br>
+
+            <p>Already have an account?
+                <a href="login.html">Login here</a>
+            </p>
+        </form>
+    </div>    
+
+    
+</body>
+</html>
