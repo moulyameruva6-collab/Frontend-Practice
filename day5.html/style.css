@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+
+
+/*--stat of hero --*/
+.hero{
+     height:50vh;
+    width:100%;
+    background-color: rgb(100, 38, 38);
+}
+
+/*-- start of about ---*/
+.about{
+     height:60vh;
+    width:100%;
+    background-color: rgb(76, 31, 190);
+}
+
+/*-- start of gallery ---*/
+.gallery{
+     height:40vh;
+    width:100%;
+    background-color: rgb(39, 190, 31);
+
+}
+
+/*-- start of contact ---*/
+.contact{
+     height:30vh;
+    width:100%;
+    background-color: rgb(97, 190, 31);
+}
+
+/*-- start of footer ---*/
+.footer{
+     height:40vh;
+    width:100%;
+    background-color: black;
+}
+
+
+
